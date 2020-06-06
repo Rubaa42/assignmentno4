@@ -1,0 +1,437 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #37474F;
+    color: white;
+    font-size: small;
+    border: 2px solid white;
+}
+.header{
+    display: flex;
+    
+}
+.headertext{
+    margin: auto 0px auto 120px;
+    color: lightgrey;
+    font-size: small;
+
+
+}
+.icons{
+    margin: auto;
+    
+}
+.fa-facebook,.fa-twitter,.fa-instagram{
+    margin-left: 18px;
+    color: white;
+}
+
+.aboutus,.contactus,.store{
+    margin: auto 0px auto 50px;
+
+}
+.aboutus a,.contactus a,.store a{
+    color: white;
+    text-decoration: none;
+}
+.aboutus a:hover,.contactus a:hover,.store a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+.fa-map-marker{
+    margin-right: 5px;
+}
+
+
+
+
+
+
+.head{
+    border: 2px solid #F5F5F5;
+   
+    
+}
+.head > .navbar{
+    background-color: #F5F5F5 !important;
+}
+.logo{
+    margin-left: 100px;
+}
+.form-control{
+    margin-left: 270px;
+    width: 500px!important;
+}
+.login{
+    margin-right: auto;
+    color: #37474F;
+    text-decoration: none;
+}
+.login:hover{
+    
+    color: green;
+    
+}
+
+
+
+.nav-link{
+    color:lightgrey!important;
+    font-weight: bold !important;
+}
+.card-group  .card{
+    width: 500px !important;
+}
+.card-img-top{
+    width: 40px !important;
+}
+.men, .women{
+
+    /* margin: 40px auto 0px 50px; */
+    width: 70%;
+    margin: 30px  0px 0px 14em ;
+
+}
+.line{
+    margin-top: -22px;
+    font-weight: bold;
+}
+/* .menimg{
+    display: inline-block;
+} */
+.mimg, .wimg{
+    margin-top: -29em;
+    
+}
+
+.container{
+    display: inline-block !important;
+}
+.card{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-img-top{
+    width: auto !important;
+    
+}
+.card-title{
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text{
+    text-align: center;
+    color: red;
+    font-weight: 500;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #37474F !important ;
+    border: 2px solid #37474F !important;
+}
+.btn-primary:hover{
+    background-color: green !important;
+    border: 2px solid green !important;
+}
+.col{
+    margin-top: 20px;
+}
+/* .womenimg{
+    display: inline-block;
+} */
+
+.fa-star, .fa-truck, .fa-phone{
+    font-size: 45px !important;
+    margin-right: 20px;
+    color: #37474F;
+}
+.help1, .help2,.help3{
+    display: flex;
+    width: 360px;
+    height: 70px;
+   box-shadow: 2px 4px 5px #37474F;
+   background-color: whitesmoke;
+   color: #37474F;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.help{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer{
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: #37474F;
+    color: lightgrey;
+}
+
+.footer .footerhead{
+    margin-top: 11px;
+}
+.homepara{
+    margin-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFAFA;
+    box-shadow: 2px 3px 8px #37474F;
+}
+.homepara h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.homepara p{
+    line-height: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    
+}
+/* .lastdiv{
+    border: 2px solid black;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #F5F5F5;
+    padding: 50px;
+}
+
+.last1{
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    margin: 0px 0px 40px 0px;
+    /* margin: 50px 0px 50px 180px; */
+    /* display:inline-block;
+}
+.last1 ul{
+    list-style: none;
+}
+.last1 .fa-twitter, .last1 .fa-instagram, .last1 .fa-facebook {
+    color: #37474F;
+   font-size: large;
+   line-height: normal;
+}
+.p1{
+    margin: 0px 15px 0px 10px;
+    color: #37474F;
+    font-weight: 500;
+}
+.lastdiv .last2{
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    margin: 70px 30px 0px 30px;
+     */
+    /* display:inline-block;
+}
+.last3{
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    margin: 10em 30px 0px 30px;
+    /* margin: 50px; */
+    /* display:inline-block;
+} */
+
+
+.foot{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px 20px 0px;
+    background-color: #F5F5F5;
+    margin-top: 30px;
+    position: relative;
+}
+.foot li{
+    line-height: 1.8;
+    list-style: none;
+    font-weight: 500;
+    text-align: justify;
+}
+.l1{
+    width: 300px;
+    margin: 0px 60px 0px 10em;
+    /* border: 2px solid black; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.l1 .logo{
+    margin-left: 1px;
+}
+.l2{
+    width: 300px;
+    margin: 0px 60px 0px 10em;
+    /* border: 2px solid black; */
+    color: #37474F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.n1,.n2,.n3{
+    /* border: 1px solid black; */
+    padding: 2px;
+    margin: 2px 2px 2px 2px;
+}
+.n1 p,.n2 p,.n3 p{
+    text-align: justify;
+    font-size: small;
+    font-weight: 500;
+    margin-top: -3px;
+}
+.l3{
+    width: 300px;
+    margin: 0px 60px 0px 10em;
+    /* border: 2px solid black; */
+    color: #37474F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.l3 img{
+    margin: 10px 0px 10px 20px;
+}
+.l2 h5,.l3 h5{
+    text-decoration: underline;
+}
+
+/* MEN PERFUME PAGE START*/
+
+
+.text{
+    width: 70%;
+    margin: 30px auto 0px auto ;
+}
+.text h3{
+    margin: 20px 0px 0px 0px;
+    color: #37474F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text h5{
+    margin: 35px 0px 20px 0px;
+    color: #37474F; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text p{
+    line-height: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.main1 .container{
+    width: 70%;
+    margin: 30px  0px 0px 14em ;
+    background-color: #FAFAFA;
+    box-shadow: 2px 4px 5px #37474F;
+}
+.text .line{
+    margin: -10px 0px 0px 0px;
+}
+.main1 .container .card{
+    margin-top: 10px;
+}
+
+
+/* WOMEN PERFUME PAGE START*/
+
+.main2 .container{
+    width: 70%;
+    margin: 30px  auto 0px 14em ;
+    background-color: #FFFDE7;
+    box-shadow: 2px 4px 5px #37474F;
+}
+.text .line{
+    margin: -10px 0px 0px 0px;
+}
+.main2 .container .card{
+    margin-top: 10px;
+}
+
+/* CONTACT PAGE START*/
+.text-center .h4{
+    margin: auto;
+    color: #37474F;
+}
+.text-center .btn-info{
+    background-color: #37474F;
+    border: 2px solid #37474F;
+}
+.text-center .form-control{
+    margin: auto;
+}
+
+/* REPONSIVE */
+
+
+@media screen and (min-width:1000px)
+{
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    .aboutus{
+        font-size: xx-small;
+    }
+    .contactus{
+        font-size: xx-small;
+    }
+    .store{
+        font-size: xx-small;
+    }
+    .headertext{
+        font-size: xx-small;
+    }
+    .icons{
+        font-size: xx-small;
+    }
+
+}
+
+@media (min-width:1400px)
+{
+    .login{
+        margin-right: 80px;
+    }
+}
+@media (max-width:560px)
+{
+    .login{
+        margin: auto auto auto 7em;
+    }
+}
+@media (max-width:1357px)
+{
+    .form-control{
+        width: 400px !important;
+    }
+}
+@media (max-width:1260px)
+{
+    .form-control{
+        width: 300px !important;
+    }
+}
+@media (max-width:1159px)
+{
+    .form-control{
+        width: 200px !important;
+    }
+}
+@media screen and (max-width:1358px)
+{
+    .form-control{
+        width: 200px !important;
+    }
+}
